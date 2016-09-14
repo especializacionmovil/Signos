@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Registro">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentStart="true">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:id="@+id/nombre"
+        android:hint="@string/Registro.nombre"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apellido"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Registro.apellido"
+        android:layout_below="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
+        android:layout_alignEnd="@+id/nombre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Registro.rh"
+        android:id="@+id/rh"
+        android:layout_below="@+id/apellido"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Registro.telefono"
+        android:id="@+id/telefono"
+        android:layout_below="@+id/rh"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Registro.correo"
+        android:id="@+id/correo"
+        android:layout_below="@+id/telefono"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Boton.guardar"
+        android:id="@+id/btn.enviar"
+        android:layout_below="@+id/correo"
+        android:background="@android:color/holo_orange_light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+</RelativeLayout>
+
+</FrameLayout>

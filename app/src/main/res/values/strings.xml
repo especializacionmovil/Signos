@@ -7,4 +7,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="Registro.nombre">Nombre</string>
+    <string name="Registro.apellido">Apellido</string>
+    <string name="Registro.rh">RH</string>
+    <string name="Registro.telefono">Telefono</string>
+    <string name="Registro.correo">Correo</string>
+    <string name="Boton.guardar">Registrar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
